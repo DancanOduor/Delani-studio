@@ -11,4 +11,20 @@
   color: aliceblue;
 }
 .home-content h2{
-  font-size: 30px;
+  font-size: 30px;}
+
+  .pet{
+    background-color: white;
+    text-align: center;
+    height: 30vh;
+}
+.pic{
+    text-align: center;
+    background-size: cover;
+    background-image: url("assets/backgrounds/s_image.jpg");
+    height: 40vh;
+    padding-top: 5%;
+    color: aliceblue;
+text-align: center;
+
+}
