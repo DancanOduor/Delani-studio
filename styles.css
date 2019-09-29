@@ -262,7 +262,6 @@ div.footer-msg p {
 
 .footsy {
   padding-top: 30px;
-  text-align: center;
 }
 
 ::placeholder {
@@ -285,4 +284,7 @@ div.footer-msg p {
 }
 button{
   background-color: white;
+}
+.footsy{
+  text-align: center;
 }
