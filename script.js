@@ -1,5 +1,60 @@
 
 
+     type="text/javascript">
+    $(document).ready(function(){
+      jQuery(".pull_feedback").toggle(function(){
+          jQuery("#feedback").animate({left:"0px"});
+          return false;
+        },
+        function(){
+          jQuery("#feedback").animate({left:"-362px"});	
+          return false;
+        }
+      ); //toggle
+    }); //document.ready
+  
+
+
+
+$(document).ready(function(){
+$("form").submit(function(event){
+var contact_name= $("input#contact-name").val();
+alert("Hey! " + contact_name + " We shall get back to you shortly");
+});
+});
+
+$(document).ready(function () {
+  $(onclick).click(function () {
+    $(this).toggle();
+  });
+});
+
+$(document).ready(function () {
+  $("ton").click(function () {
+    $("mag1").toggle();
+  });
+});
+
+
+ 
+$(document).ready(function () {
+  $("bot").click(function () {
+    $("mag2").toggle();
+  });
+});
+
+
+
+$(document).ready(function () {
+  $("bu1").click(function () {
+    $("mag3").toggle();
+  });
+});
+
+
+
+
+
 
 
 

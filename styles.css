@@ -408,7 +408,9 @@ a {
 
 #mc_embed_signup{
   width: 40%;
-  margin-left: 20px;
+  margin-left: 25%;
+  text-align: center;
+
 }
 .pork{
   display: flex; 
@@ -419,6 +421,6 @@ a {
   margin-right: 30px;
 }
 
-.mc-field-group{
+.con{
 height: 100px;
 }
