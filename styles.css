@@ -151,6 +151,7 @@
 
 .text-sect2 {
   font-size: 12px;
+  background: transparent;
 }
 
 .sect3 {
@@ -397,7 +398,27 @@ a {
         .wrapper {padding: 20px 20px;}
 }
 
-
-
-
 .hello {display: none}
+
+
+.mc-field-group>input{
+  background:transparent;
+ 
+}
+
+#mc_embed_signup{
+  width: 40%;
+  margin-left: 20px;
+}
+.pork{
+  display: flex; 
+  text-align:center;
+  margin: 4em;
+
+}.pork #mce-EMAIL{
+  margin-right: 30px;
+}
+
+.mc-field-group{
+height: 100px;
+}

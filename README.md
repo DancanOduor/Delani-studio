@@ -17,8 +17,8 @@
 * Fill in the form on each and every input field
 * Click the submit button at the bottom
 * An alert message will appear if showing success or failure
- * There are no extra dependencies to be installed or databases and no other code that may be crucial to access this material.   *
- * Delani Studios
+ * There are no extra dependencies to be installed or databases and no other code that may be crucial to access this material. 
+ 
 ## Known Bugs
 {There are no known bugs. In case you do encounter any, please contact us on the deatils below.}
 ## Technologies Used

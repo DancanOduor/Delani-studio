@@ -4,30 +4,6 @@
 
 
 
-  $(document).ready(function () {
-    $(onclick).click(function () {
-      $(this).toggle();
-    });
-  });
-
-  $(document).ready(function () {
-    $("ton").click(function () {
-      $("p").toggle();
-    });
-  });
-
-  $(document).ready(function () {
-    $("bu1").click(function () {
-      $("p").toggle();
-    });
-  });
-
-  $(document).ready(function () {
-    $("b2").click(function () {
-      $("mag2").toggle();
-    });
-  });
-
 
 
 
