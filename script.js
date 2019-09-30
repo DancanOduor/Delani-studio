@@ -1,6 +1,4 @@
 
-
-     type="text/javascript">
     $(document).ready(function(){
       jQuery(".pull_feedback").toggle(function(){
           jQuery("#feedback").animate({left:"0px"});
