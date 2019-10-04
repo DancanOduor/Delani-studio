@@ -1,8 +1,8 @@
- { DELANI STUDIO WEBSITE}
-#### {This is the landing page for Delani Studio}, {Date of current version}
-#### By **{Dancan oduor**
+ DELANI STUDIO WEBSITE
+#### This is the landing page for Delani Studio
+#### By **Dancan oduor**
 ## Description
-{This landing page consists of 7 sections: 1.Cover Section 2.About Us Section 3.Services 4.What We Do 5.Portfolio 6.Contact Us 7.Footer with social links}
+This landing page consists of 7 sections: 1.Cover Section 2.About Us Section 3.Services 4.What We Do 5.Portfolio 6.Contact Us 7.Footer with social links
 ## Behaviour Driven Development(BDD)
  * Behaviour	Input	Output
 * Listen for click on cover page	Click	Go to About us section
@@ -20,11 +20,11 @@
  * There are no extra dependencies to be installed or databases and no other code that may be crucial to access this material. 
  
 ## Known Bugs
-{There are no known bugs. In case you do encounter any, please contact us on the deatils below.}
+There are no known bugs. In case you do encounter any, please contact us on the deatils below.
 ## Technologies Used
-{The site was created using HTML, CSS and Javascript as the primary languages on Visual Studio Code as the editor. Bootstrap CSS, Javascript and Jquery were also included for additional styling.}
+The site was created using HTML, CSS and Javascript as the primary languages on Visual Studio Code as the editor. Bootstrap CSS, Javascript and Jquery were also included for additional styling.
 ## Support and contact details
-{If you experience issues that are related to my site and are hindering you from accessing this material, then please contact me @ dancansterio@gmail.com.}
+If you experience issues that are related to my site and are hindering you from accessing this material, then please contact me @ dancansterio@gmail.com.
 Live Site
 To view this site access https://dancanoduor.github.io/Delani-studio/
 ### License
