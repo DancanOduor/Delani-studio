@@ -270,12 +270,10 @@ div.footer-msg p {
   font-size: 14px;
 }
 
-#mag1,
-#mag2,
-#mag3 {
-  /* display: none; */
 
-}
+
+
+
 
 .toast {
   display: none;
@@ -421,6 +419,3 @@ a {
   margin-right: 30px;
 }
 
-.con{
-height: 100px;
-}

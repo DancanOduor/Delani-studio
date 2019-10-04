@@ -9,6 +9,9 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
 
 
 
@@ -222,17 +225,17 @@
                 <div class="mc-field-group ml-4">
                   <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
                   </label>
-                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                  <input type="email" value="" required="" name="EMAIL" class="required email" id="mce-EMAIL">
                 </div>
                 <div class="mc-field-group">
                   <label for="mce-FNAME">Name </label>
-                  <input type="text" value="" name="FNAME" class="ml-4 mt-2" id="mce-FNAME">
+                  <input type="text" value="" required="" id='name' name="FNAME" class="ml-4 mt-2" id="mce-FNAME">
                 </div>
               </div>
               <div class="con">
                 <div class="mc-field-group">
                   <label for="mce-LNAME">message </label>
-                  <input type="text" value="" name="LNAME" class="" id="mce-LNAME" style="height:160px" width="50%">
+                  <input type="text" value="" required="" name="LNAME" class="" id="mce-LNAME" style="height:160px" width="50%">
                 </div>
               </div>
               <div id="mce-responses" class="clear">
@@ -243,7 +246,7 @@
               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
                   name="b_035aa4820c23bdc674dd36243_b3e0dfe8da" tabindex="-1" value=""></div>
               <div class="clear"><br><br><br><br><br><br>
-                <input type="submit" value="submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                <input type="submit" value="submit" name="submit" id="mc-embedded-subscribe" class="button"></div>
             </div>
           </form>
         </div>
@@ -271,6 +274,13 @@
             <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button> -->
+            <br>
+          </div>
+          <!-- <div class="toast-body"> -->
+            <!-- <p class="text-success"> Hello <span id="outputName"></span> we have received your message. Thank -->
+              <!-- you for reaching out to us.</p> -->
+          </div>
+        </div>
       </div>
       <!-- <div class="toast-body"> -->
       <!-- <p class="text-success"> Hello <span id="outputName"></span> we have received your message. Thank -->
@@ -319,8 +329,8 @@
         </div>
       </footer>
     </section>
-    <!-- 
-    <script type="text/javascript">
+<!--      
+     <script type="text/javascript">
       $(document).ready(function(){
         jQuery(".pull_feedback").toggle(function(){
             jQuery("#feedback").animate({left:"0px"});
@@ -329,7 +339,7 @@
           function(){
             jQuery("#feedback").animate({left:"-362px"});	
             return false;
-          }
+          } -->
         ); //toggle
       }); //document.ready
       </script>
@@ -337,9 +347,17 @@
 
 <script>
 $(document).ready(function(){
-  $("form").submit(function(event){
-  var contact_name= $("input#contact-name").val();
-  alert("Hey! " + contact_name + " We shall get back to you shortly");
+  $("form").submit(function(event){    
+ event.preventDefault()
+  var contact_name= document.getElementById('name').value;
+
+  if(contact_name === null || contact_name===""){
+  alert("Invalid")
+  }
+  else{
+    alert("Hey! " + contact_name + " We have recieved your massage and we shall get back to you shotly");
+  }
+ 
 });
 });
 </script>
@@ -372,11 +390,11 @@ $(document).ready(function(){
     });
   });
 </script>
+ 
 
 
- -->
 
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
